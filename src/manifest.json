@@ -1,0 +1,10 @@
+{
+    "name": "J New Tab overwriter",
+    "version": "1.0",
+    "description": "Overwrite MS Edge new tab",
+    "permissions": ["topSites"],
+    "chrome_url_overrides": {
+        "newtab": "index.html"
+    },
+    "manifest_version": 2
+}
