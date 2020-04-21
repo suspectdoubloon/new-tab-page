@@ -1,2 +1,6 @@
 # New tab page extension
-Readme to go here
+A simple new tab page.
+
+## Todo
+* Customise search
+* Background image

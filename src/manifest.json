@@ -1,5 +1,5 @@
 {
-    "name": "J New Tab overwriter",
+    "name": "Simple New Tab",
     "version": "1.0",
     "description": "Overwrite MS Edge new tab",
     "permissions": ["topSites"],
@@ -7,7 +7,7 @@
         "newtab": "index.html"
     },
     "browser_action": {
-        "default_title": "Jarrads new tab page"
+        "default_title": "Simple New Tab Page"
     },
     "manifest_version": 2
 }
