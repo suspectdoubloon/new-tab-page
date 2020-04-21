@@ -1,4 +1,6 @@
 import * as React from "react";
+import { TopSites } from './TopSites';
+import { Search } from './Search';
 
 interface NewtabProps {}
 
@@ -24,15 +26,9 @@ export class Newtab extends React.Component<NewtabProps, NewtabState> {
     }
 
     render() {
-        return <div>
-            <form action="https://google.com.au/search" method="get">
-                <input type="text" name="q"></input>
-            </form>
-            {this.state.topSites.map((site) => {
-                return <div>
-                    <a href={site.url}><span>{site.title}</span></a>
-                </div>
-            })}
+        return <div className={'newtab'}>
+            <Search />
+            <TopSites sites={this.state.topSites} />
         </div>
     }
 }

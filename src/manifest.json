@@ -6,5 +6,8 @@
     "chrome_url_overrides": {
         "newtab": "index.html"
     },
+    "browser_action": {
+        "default_title": "Jarrads new tab page"
+    },
     "manifest_version": 2
 }

@@ -1,0 +1,31 @@
+#search {
+    width: 100%;
+    margin: 10px 0;
+    max-width: 750px;
+    display: flex;
+    flex-wrap: nowrap;
+
+    input {
+        border-radius: 5px 0px 0px 5px;
+        height: 25px;
+        padding: 10px;
+        background-color: #30475e;
+        color: white;
+        border: none;
+        flex-grow: 19;
+    }
+
+    ::placeholder {
+        color: white;
+    }
+
+    button {
+        background-color: #0779e4;
+        height: 45px;
+        padding: 10px;
+        color: white;
+        flex-grow: 1;
+        border: none;
+        border-radius: 0px 5px 5px 0px;
+    }
+}
